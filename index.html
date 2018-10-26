@@ -5,12 +5,18 @@
 </head>
 <body>
 	<a-scene>
-  <a-sphere position= "-3,5,-3" height= "3" radius= 1 color="pink">
+  <a-sphere position= "-3 0.27 -3" height= "3" radius= .3 color="pink">
   </a-sphere>
-  <a-sphere position= "3,5,-3" height= "3" radius= 1 color="pink">
+  <a-sphere position= "-3 0.27 -2.5" height= "3" radius= .3 color="pink">
   </a-sphere>
+  <a-sphere position= "-3.5 .27 -2.7" height= "3" radius= .3 color="pink">
+  </a-sphere>
+  <a-box position="-3 0.2 -3" height= "0.5" width= "0.1" base= "100" color="brown" > </a-box>
   <a-sky color="#36DCF5"></a-sky>
-  <a-plane color="green" height="10" width="100" rotation="-90 0 0"></a-plane>
+  <a-plane color="green" height="10" width="1000" rotation="-90 0 0"></a-plane>
     </a-scene>
+    <a-assets>
+     <a-asset-item id="tinker-obj" src="/path/to/tinker.obj"></a-asset-item>
+</a-assets>
 </body>
 </html>
