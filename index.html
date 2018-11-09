@@ -1,24 +1,18 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 </head>
 <body>
-	<a-scene>
-		<a-assets>
-     <a-asset-item id="tinker-obj" src="tinker.obj"></a-asset-item>
-     <a-asset-item id="tinker-mtl" src="obj.mtl"></a-asset-item>
+  <a-scene>
+    <a-assets>
+     <a-asset-item id="cell-obj" src="cell.obj"></a-asset-item>
+     <a-asset-item id="cell-mtl" src="cell.mtl"></a-asset-item>
 </a-assets>
-  <a-sphere position= "-3 0.27 -3" height= "3" radius= .3 color="pink">
-  </a-sphere>
-  <a-sphere position= "-3 0.27 -2.5" height= "3" radius= .3 color="pink">
-  </a-sphere>
-  <a-sphere position= "-3.5 .27 -2.7" height= "3" radius= .3 color="pink">
-  </a-sphere>
-  <a-box position="-3 0.2 -3" height= "0.5" width= "0.1" length= "100" color="brown" > </a-box>
-  <a-sky color="#36DCF5"></a-sky>
-  <a-plane color="green" height="10" width="1000" rotation="-90 0 0"></a-plane>
-  <a-entity obj-model="obj: #tinker-obj; mtl: #tinker-mtl" position = "-3 0.5 -3" scale="0.01 0.01 0.01 ></a-entity>
-    </a-scene>    
+  <a-plane color="green" height="10" width="1000" rotation="-90 0 0" ></a-plane>
+  <a-entity obj-model="obj: #obj-obj; mtl: #obj-mtl" position = "-3 0.5 -3" scale="0.001 0.001 0.001" 
+    </a-scene>
+</a-entity>
+</a-scene>
 </body>
 </html>
